@@ -3,6 +3,7 @@ import AchievementsSection from "@/components/AchievementsSection";
 import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import MyProjects from "@/components/MyProjects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,8 +15,11 @@ export default function Home() {
       <main className="min-h-screen">
         <AchievementsSection />
         <About id="about"/>
-        <MyProjects />
+        <MyProjects id="projects"/>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

@@ -5,6 +5,7 @@ import { useState } from "react";
 const About = ({ id }) => {
   const object = {
     skills: [
+      this ? "" :
       "HTML",
       "CSS",
       "JacaSript",
@@ -14,7 +15,8 @@ const About = ({ id }) => {
       "Boostrap",
       "React",
     ],
-    education: ["Najot Talim"],
+    education: [this ? "" :"Najot Talim"],
+    certificate: [this ? "" : "Empty"],
   };
 
   const list = Object.keys(object);

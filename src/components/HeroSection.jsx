@@ -5,10 +5,10 @@ import { TypeAnimation } from 'react-type-animation'
 
 function HeroSection() {
   return (
-    <div className=" grid-cols-12  container mt-24 mx-auto px-12 py-4">
-      <div className=" col-span-8 place-self-center text-center sm:text-left justify-self-start">
+    <div className="grid grid-cols-12 center container mt-24 mx-auto px-12 py-4">
+      <div className=" col-span-12 place-self-center text-center sm:text-left sm:col-span-8 justify-self-start ">
         <h1 className="inline-block bg-gradient-to-r from-[#99f46b] to-[#e9f84b] bg-clip-text text-transparent mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-          Hello I am
+          Hello I&apos;m
         </h1>
         <br />
         <TypeAnimation
@@ -26,7 +26,7 @@ function HeroSection() {
             1000,
             "ReactJS",
             1000,
-            "NextJS",
+            "NextJS Developer",
             1000,
           ]}
           wrapper="span"
@@ -51,7 +51,9 @@ function HeroSection() {
           </a>
         </div>
       </div>
-      <div className=" col-span-4"></div>
+      <div className="col-span-4">
+        <img src="/portfolio.png" alt="abc" />
+      </div>
     </div>
   );
 }
