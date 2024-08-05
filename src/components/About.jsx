@@ -40,7 +40,7 @@ const About = ({ id }) => {
           facere sequi odio voluptate, soluta iste quae minus suscipit
           asperiores sunt illo quis voluptates culpa.
         </p>
-        <div>
+        <div className=" mt-10">
           <ul className="flex gap-5 list-none font-bold">
             {list.map((l, index) => (
               <li className="text-xl" key={index}>
