@@ -72,11 +72,11 @@ function MyProjects({ id }) {
           </li>
         ))}
       </ul>
-      <ul className="project grid grid-cols-3 mt-7 pl-3 list-disc gap-10">
+      <ul className="project grid  sm:grid-cols-2 lg:grid-cols-3 mt-7 pl-3 list-disc gap-10">
         {combinedProjects.length > 0 ? (
           combinedProjects.map((s, index) => (
             <li
-              className="text-base list-none col-span-1 relative group"
+              className="text-base list-none sm:grid-cols-1 lg:col-span-1 relative group"
               key={index}
             >
               <Image
